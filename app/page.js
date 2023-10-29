@@ -38,9 +38,11 @@ export default function Home() {
 
   return (
     <main className={styles.container}>
-      {callers.map((elem) => (
-        <Caller data={elem.data} setCallers={setCallers}></Caller>
-      ))}
+      {callers
+        .sort((a, b) => a.data.priority - b.data.priority)
+        .map((elem) => (
+          <Caller data={elem.data} setCallers={setCallers}></Caller>
+        ))}
     </main>
   )
 }

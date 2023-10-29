@@ -5,7 +5,7 @@ export default function Caller({ data, setCallers }) {
     <div
       className={styles.container}
       style={{
-        background: data.priority === 1 ? '#FF8080' : '#FFA680',
+        background: data?.priority === 1 ? '#FF8080' : '#FFA680',
       }}
     >
       <p>{data.summary_points}</p>
