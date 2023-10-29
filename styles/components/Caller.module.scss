@@ -1,12 +1,13 @@
 .container {
   width: 400px;
-  background: lightgray;
+  height: 200px;
+  border: 2px solid #00000040;
 
-  &.priority-1 {
+  &.priority1 {
     background: #FF8080;
   }
 
-  &.priority-2 {
+  &.priority2 {
     background: #FFA680;
   }
 
