@@ -1,0 +1,24 @@
+.container {
+  width: 400px;
+  background: lightgray;
+
+  &.priority-1 {
+    background: #FF8080;
+  }
+
+  &.priority-2 {
+    background: #FFA680;
+  }
+
+  &.priority-3 {
+    background: #FFCC80;
+  }
+
+  &.priority-4 {
+    background: #FFE380;
+  }
+
+  &.priority- {
+    background: #C7FF80;
+  }
+}
